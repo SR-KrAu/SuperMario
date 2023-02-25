@@ -118,6 +118,10 @@ void MonsterHandstandEvent(GameScene* gamescene, Monster* monster) {
 	else {
 		monster->vy = -5;
 		monster->status = handstand;
+		if (monster->type2 == flyrtortoise) {
+			monster->type2 = rtortoise;
+			monster->physic = true;
+		}
 	}
 }
 
@@ -205,6 +209,9 @@ void MarioStompMonsterEvent(GameScene* gamescene, Monster* monster) {
 	case tortoise:
 		if (monster->type2 == flyrtortoise) {
 			monster->type2 = rtortoise;
+			monster->physic = true;
+			monster->vy = 0;
+			monster->vx = -1;
 			break;
 		}
 		if (monster->status == normal) {

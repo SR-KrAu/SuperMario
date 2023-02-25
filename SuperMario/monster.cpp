@@ -1,6 +1,7 @@
 #include "monster.h"
 #include "image.h"
 #include "gamescene.h"
+#include <math.h>
 
 using namespace ImageData;
 
@@ -90,16 +91,10 @@ void Monster::Update(GameScene* gamescene) {
 
 	//飞行乌龟上下移动
 	if (this->type2 == flyrtortoise) {
-		if (this->vy > 0) {
-			this->vy -= 0.1;
-			if (this->vy == 0)
-				this->vy = -1;
-		}
-		if (this->vy < 0) {
-			this->vy += 0.1;
-			if (this->vy == 0)
-				this->vy = 1;
-		}
+		if (this->vy > 0 && this->y >= 450)
+			this->vy = -1;
+		if (this->vy < 0 && this->y <= 150)
+			this->vy = 1;
 	}
 
 	//被踩死计数器刷新
@@ -258,14 +253,11 @@ void MonsterInit(GameScene* gamescene) {
 		addMonster(gamescene, 1300, 160, tortoise, rtortoise);
 		addMonster(gamescene, 1880, 120, chestnut);
 		addMonster(gamescene, 1930, 120, chestnut);
-		addMonster(gamescene, 3339, 205, chestnut);
+		addMonster(gamescene, 3339, 180, chestnut);
 		addMonster(gamescene, 4554, 234, tortoise, rtortoise);
 		addMonster(gamescene, 5582, 466, tortoise, rtortoise);
 		addMonster(gamescene, 3108, 291, tortoise, flyrtortoise);
 		addMonster(gamescene, 4750, 300, tortoise, flyrtortoise);
-
-
-
 		break;
 	}
 }

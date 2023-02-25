@@ -225,7 +225,7 @@ void GameSceneInit(GameScene* gamescene) {
 	gamescene->y = 484;
 
 	/*gamescene->levelname = level1_3;
-	gamescene->x = 6000;
+	gamescene->x = 2750;
 	gamescene->y = 30;*/
 
 	gamescene->life = 3;

@@ -17,10 +17,8 @@
 * 微信: w1351041691  
 * 发现 Bug 欢迎反馈  
 ## 素材来源  
-* 关卡贴图来源于 [無知丶](https://www.bilibili.com/read/cv16006599?spm_id_from=333.999.0.0)  
-* 其它贴图和音频来源于 [justinmeister](https://github.com/justinmeister/Mario-Level-1)  
-## 已知BUG  
-* 1-3 关中飞行乌龟没有设定成功  
+* 关卡贴图： [無知丶](https://www.bilibili.com/read/cv16006599?spm_id_from=333.999.0.0)  
+* 其它贴图和音频： [justinmeister](https://github.com/justinmeister/Mario-Level-1)  
 ## 运行截图  
 ![运行截图1](/doc/IMG1.png)  
 ![运行截图2](/doc/IMG2.png)  

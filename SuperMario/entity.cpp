@@ -19,6 +19,8 @@ void Entity::EntityUpdate() {
 		this->dir = -1;
 	
 	//ÊµÌåÒÆ¶¯
+	
+	
 	this->x += this->vx;
 	this->y += this->vy;
 }
