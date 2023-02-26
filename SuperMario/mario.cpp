@@ -196,7 +196,10 @@ void Mario::WinUpdate(GameScene* gamescene) {
 		break;
 	case level1_3:
 		if (this->x + this->width == 6920) {
-			exit(1);
+			gamescene->levelname = level1_4;
+			gamescene->x = 115;
+			gamescene->y = 199;
+			GameSceneReloadEvent(gamescene);
 		}
 		break;
 	}

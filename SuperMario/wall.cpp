@@ -179,5 +179,39 @@ void WallInit(GameScene* gamescene) {
 		addWall(gamescene, 5794, 283, 5954, 362);
 		addWall(gamescene, 5874, 202, 5954, 282);
 		break;
+	case level1_4:
+		addWall(gamescene, 0, 0, 6478, 117);
+		addWall(gamescene, 0, 118, 1045, 198);
+		addWall(gamescene, 0, 199, 79, 282);
+		addWall(gamescene, 0, 282, 200, 321);
+		addWall(gamescene, 0, 322, 240, 361);
+		addWall(gamescene, 0, 362, 280, 401);
+		addWall(gamescene, 0, 402, 602, 700);
+		addWall(gamescene, 683, 402, 1125, 700);
+		addWall(gamescene, 1005, 199, 1045, 282);
+		addWall(gamescene, 1247, 402, 1367, 700);
+		addWall(gamescene, 1488, 362, 2977, 700);
+		addWall(gamescene, 1569, 118, 2977, 238);
+		addWall(gamescene, 1569, 241, 1608, 281);
+		addWall(gamescene, 2052, 241, 2091, 281);
+		addWall(gamescene, 2495, 241, 2535, 281);
+		addWall(gamescene, 2776, 241, 2816, 281);
+		addWall(gamescene, 2975, 402, 4265, 700);
+		addWall(gamescene, 3139, 362, 3178, 401);
+		addWall(gamescene, 3300, 118, 3339, 200);
+		addWall(gamescene, 3461, 362, 3500, 401);
+		addWall(gamescene, 3622, 118, 3661, 200);
+		addWall(gamescene, 3783, 362, 3822, 401);
+		addWall(gamescene, 3984, 118, 4265, 198);
+		addWall(gamescene, 4266, 523, 4748, 700);
+		addWall(gamescene, 4749, 402, 4909, 700);
+		addWall(gamescene, 4910, 523, 5029, 700);
+		addWall(gamescene, 5030, 118, 5231, 199);
+		addWall(gamescene, 4749, 402, 4909, 700);
+		addWall(gamescene, 5030, 402, 5231, 700);
+		addWall(gamescene, 5232, 402, 5754, 442);
+		addWall(gamescene, 5755, 362, 5875, 700);
+		addWall(gamescene, 5795, 118, 5875, 238);
+		break;
 	}
 }

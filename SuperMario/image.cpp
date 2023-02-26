@@ -85,6 +85,9 @@ void loadImages(levelName name, levelType type) {
 	case level1_3:
 		loadLevelImage("1-3");
 		break;
+	case level1_4:
+		loadLevelImage("1-4");
+		break;
 	}
 
 	char leveltype[15];
@@ -96,6 +99,7 @@ void loadImages(levelName name, levelType type) {
 		sprintf(leveltype, "underground");
 		break;
 	case castle:
+		sprintf(leveltype, "castle");
 		break;
 	case water:
 		break;

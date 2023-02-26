@@ -7,7 +7,8 @@ namespace LevelData {
 		level1_2,
 		level1_2_pipe,
 		level1_2_ground,
-		level1_3
+		level1_3,
+		level1_4
 	};
 	enum levelType {
 		ground,

@@ -36,6 +36,7 @@ void Flag::Init(GameScene* gamescene) {
 	case level1_1_pipe:
 	case level1_2:
 	case level1_2_pipe:
+	case level1_4:
 		this->is_exist = false;
 		break;
 	}

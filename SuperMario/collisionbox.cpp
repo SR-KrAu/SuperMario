@@ -2,7 +2,7 @@
 
 void ShowCollisionbox(Camera* camera, int x1, int y1, int x2, int y2) {
 	//ÏÔÊ¾Åö×²Ïä
-	return;
+	//return;
 	setlinecolor(RGB(0, 0, 255));
 	setlinestyle(PS_SOLID,2);
 	line(300 - camera->x + x1, y1, 300 - camera->x + x2, y1);
